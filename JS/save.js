@@ -8,7 +8,7 @@
 // ORG:Diplomat Properties
 // TEL;TYPE=WORK,VOICE:+971503250084
 // TEL;TYPE=WORK,VOICE:+97145665109
-// EMAIL:Zeinabdallah08@gmail.com
+// EMAIL:Dania@dpdxb.com
 // URL:http://www.riseproperties.ae
 // ADR;TYPE=WORK:;;PO Box No 455979, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 // END:VCARD
@@ -37,11 +37,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Zein Abdallah
+FN:Dania Ali Hamad
 TITLE:Sales Manager
 ORG:Diplomat Properties
-TEL;TYPE=WORK,VOICE:+971503250084
-EMAIL:Zeinabdallah08@gmail.com
+TEL;TYPE=WORK,VOICE:+971554201542 
+EMAIL:Dania@dpdxb.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -52,7 +52,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Zein Abdallah.vcf';
+  a.download = 'Dania Ali Hamad.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
